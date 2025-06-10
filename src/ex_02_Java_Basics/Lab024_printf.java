@@ -11,5 +11,10 @@ public class Lab024_printf {
         System.out.println(a);
         System.out.printf("your variable name is %d", a);
 
+        int b = 20;
+        System.out.println(b);
+        System.out.printf( "%d + %d" ,a,b);
+
+
     }
 }
