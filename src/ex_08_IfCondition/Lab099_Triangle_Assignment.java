@@ -17,9 +17,9 @@ public class Lab099_Triangle_Assignment {
         int b;
         int c;
         System.out.println("Length for 3 sides of Triangle:");
-        a = scanner.nextDouble();
-        b = scanner.nextDouble();
-        c = scanner.nextDouble();
+        a = scanner.nextInt();
+        b = scanner.nextInt();
+        c = scanner.nextInt();
         if (a == b && b == c) {
             System.out.println("Equilateral Triangle");
         } else if (a == b || b == c || c == a) {
