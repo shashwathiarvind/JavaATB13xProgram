@@ -12,27 +12,24 @@ public class Lab099_Triangle_Assignment {
         or scalene (no sides are equal).
          Use an if-else statement to classify the triangle.
          */
-    Scanner scanner = new Scanner(System.in); // take input frm user
+        Scanner scanner = new Scanner(System.in); // take input frm user
         int a;
         int b;
         int c;
         System.out.println("Length for 3 sides of Triangle:");
-        a = scanner.nextInt();
-        b = scanner.nextInt();
-        c = scanner.nextInt();
-        if ( a==b&&b==c) {
+        a = scanner.nextDouble();
+        b = scanner.nextDouble();
+        c = scanner.nextDouble();
+        if (a == b && b == c) {
             System.out.println("Equilateral Triangle");
-        }
-        else if(a==b || b==c|| c==a) {
+        } else if (a == b || b == c || c == a) {
             System.out.println("Isoceles Triangle");
-        }
-        else {
+        } else {
             System.out.println("Scalene Triangle");
         }
-        }
-
-
-
     }
+
+
+}
 
 
