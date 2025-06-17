@@ -2,9 +2,9 @@ package ex_09_Switch;
 
 import java.util.Scanner;
 
-public class Lab098_Switch {
+public class Lab099_Switch_Without_Break {
     public static void main(String[] args) {
-     //int day = Integer.parseInt(args[0]);
+        //int day = Integer.parseInt(args[0]);
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter day 1 to 7"); // 1 to 7 => 1 being monday, 2 tues, so on
         int day = scanner.nextInt();
@@ -12,30 +12,27 @@ public class Lab098_Switch {
         switch (day) {
             case 1:
                 System.out.println("Mon");
-                break;
+                //    break;
             case 2:
                 System.out.println("Tues");
-                break;
+                // break;
             case 3:
                 System.out.println("Wed");
-                break;
+                //   break;
             case 4:
                 System.out.println("Thur");
-                break;
+                //  break;
             case 5:
                 System.out.println("Fri");
-                break;
+                //    break;
             case 6:
                 System.out.println("Sat");
-                break;
+                //    break;
             case 7:
                 System.out.println("Sun");
-                break;
+                // break;
             default:
                 System.out.println("Not allowed");
         }
-
-
     }
-
 }
