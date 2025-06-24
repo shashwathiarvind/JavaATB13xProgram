@@ -39,5 +39,15 @@ public class Lab154_String_Functions {
         System.out.println((split_name4[0]));
         System.out.println((split_name4[1]));
         System.out.println((split_name4[2]));
+
+        //substring
+        System.out.println(name.substring(1 , 3));
+
+        //concat
+        String s1111 = "hiii";
+        String s2222 = "hellooooo";
+        String s3333 = "hhhhhh";
+        String result = s1111 + s2222 + s3333;
+        System.out.println(result);
     }
 }
