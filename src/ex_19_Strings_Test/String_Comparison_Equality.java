@@ -15,10 +15,9 @@ public class String_Comparison_Equality {
 
         //  Using equals() method compares content
         System.out.println("--- Using equals() method (compares content, case-sensitive) ---");
-        System.out.println( s1.equals(s2)); // true
-        System.out.println( s1.equals(s3)); // true
-        System.out.println( s1.equals(s4)); // false
-        System.out.println( s1.equals(s5)); // false
+        System.out.println( s1.equals(s2));
+        System.out.println( s1.equals(s3));
+        System.out.println( s1.equals(s4));
 
         //  Using equalsIgnoreCase() method it compares content, case-insensitive
         System.out.println(" Using equalsIgnoreCase() method (compares content, case-insensitive) ---");
