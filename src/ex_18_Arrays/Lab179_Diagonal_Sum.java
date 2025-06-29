@@ -24,7 +24,7 @@ public class Lab179_Diagonal_Sum {
         for (int i = 0; i < n; i++) {
             diagonalSum += matrix[i][i];
         }
-        System.out.println("Sum of the main diagonal elements: " + diagonalSum);
+        System.out.println("Sum of the  diagonal elements: " + diagonalSum);
 
     }
 }
