@@ -7,3 +7,4 @@ public class Lab083_Increment_DecrementAssignment {
         System.out.println("a:" +a+ ",b:" +b);
     }
 }
+//a=6 , b = 5

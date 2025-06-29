@@ -1,11 +1,11 @@
 package ex_18_Arrays;
 
-public class Lab170_2D_Array {
-    public static void main(String[] args) {
+//public class Lab170_2D_Array {
+  //  public static void main(String[] args) {
         //1,2,3
         //4,5,6
         //7,8,9
-        int[][] array_2d_old = {    //2d array representation
+        /*int[][] array_2d_old = {    //2d array representation
                 {1, 2, 3},
                 {4, 5, 6},
                 {7, 8, 9},
@@ -15,14 +15,14 @@ public class Lab170_2D_Array {
         //30, 40
         //50, 60
 
-        int[][] array;
+       /* int[][] array;
         array = new int[][] { //other way of representing
                 {10, 20},
                 {30, 40},
                 {50, 60},
 
         };
-        int[][] array_2d = new int[3],[3]; //by intializing value
+/*      int[][] array_2d = new int[3],[3]; //by intializing value
         array_2d[0][0] = 1;
         array_2d[0][1] = 2;
         array_2d[0][2] = 3;
@@ -37,3 +37,5 @@ public class Lab170_2D_Array {
 
     }
 }
+
+         */
