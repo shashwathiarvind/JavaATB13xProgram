@@ -19,7 +19,7 @@ public class Website_Domain {
         } else if (url.endsWith(".net")) {
             System.out.println("The website type is for Network website");
         } else if (url.endsWith(".info")) {
-            System.out.println("The website type is for Infomation");
+            System.out.println("The website type is for Information");
         } else {
             System.out.println("The website type is Unknown");
         }
