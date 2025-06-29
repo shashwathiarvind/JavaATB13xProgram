@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Lab179_Diagonal_Sum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the size of the square matrix  ");
+        System.out.print("Enter the size of the  matrix  ");
         int n = scanner.nextInt();
         int[][] matrix = new int[n][n];
 
