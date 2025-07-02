@@ -17,7 +17,7 @@ class Student {
 
     // Parameterized constructor
     Student(String studentName, int studentAge) {
-        name = studentName;
-        age = studentAge;
+        this.name = studentName;
+       this.age = studentAge;
     }
 }
