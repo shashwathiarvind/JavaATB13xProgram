@@ -32,11 +32,11 @@ class VWOLogin{
 }
 
 class GoodVWOLogin {
-    // Instance Variable | Data variable | Attribute | Fields |  properties | member variables
+    // Instance Variable | Data variable | Attribute  |
     private String username;
     private String password;
 
-    // PC
+
     public GoodVWOLogin(String usr, String pwd) {
         this.username = usr;
         this.password = pwd;

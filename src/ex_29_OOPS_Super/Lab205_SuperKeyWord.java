@@ -20,7 +20,7 @@ class Vehicle {
         System.out.println("Param Constructor" + a);
     }
 
-    // Method Overloading - Same,name function with different arguments.
+    // Method Overloading - Same name function with different arguments.
     void message(int a) {
         System.out.println("Type 2");
     }
