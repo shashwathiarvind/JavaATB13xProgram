@@ -6,7 +6,7 @@ public class Lab156_StringBuffer {
         stringBuffer.append("Arvind");
         System.out.println(stringBuffer);
 
-        //reverse functtion can be done usoing stringBuffer.reverse
+        //reverse function can be done using stringBuffer.reverse
         System.out.println(stringBuffer.reverse());
 
 
